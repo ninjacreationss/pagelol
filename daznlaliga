@@ -1,0 +1,81 @@
+
+<html>
+	<head>
+		
+		<title>DAZN La Liga JWPlayer</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>	
+<meta http-equiv="Content-Language" content="es" />	
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z37PD0SFFX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z37PD0SFFX');
+</script>
+
+	</head>
+
+<body  style="padding: 0px; margin:0px;">
+<script src='https://content.jwplatform.com/libraries/KB5zFt7A.js'></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+<script> jwplayer.key='XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';</script>
+<div id="player"></div>
+<script>
+var playerInstance = jwplayer("player");
+
+    playerInstance.setup({
+
+        playlist: [{
+          "title": "Reproductor | ZonaDeportiva+",
+          "description": "LIVE",
+            "sources": [
+                {
+                    "default": false,
+                    "type": "dash",
+                    "file": 'https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-043/stream.mpd',
+                    "drm": {
+                        "clearkey": { "keyId": "82f8e2a17dac44c0a18f660479349c59", "key": "1b144f73e6fefe91cd05f850e2b589d0" }
+                    },
+                    "label": "0"
+                }
+            ]
+        }],
+        width: "100%",
+        height: "100%",
+        aspectratio: "16:9",
+        autostart: false,
+        cast: {},
+        sharing: {}
+    });
+</script>
+
+<a href="javascript:location.reload()"><span style="position:absolute;z-index: 100; top:2px; left:20px; height:20px; width:120px; color:#ccc; border:2px solid #ccc;padding:1px 0;border-radius:2px; text-align:center">Recargar canal</span></a>
+
+<script data-cfasync="false" src="//asccdn.com/script/ippg.js" data-adel="inpage" zid="5601146" rr="0" mads="2"></script>
+ <script src="//ahscdn.com/script/suv4.js" data-adel="lwsu" cdnd="ahscdn.com" zid="5290947"></script>
+ 
+ 
+ 
+ <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+ <!-- Histats.com  START  (aync)-->
+ <script type="text/javascript">var _Hasync= _Hasync|| [];
+ _Hasync.push(['Histats.start', '1,4643099,4,511,95,18,00000000']);
+ _Hasync.push(['Histats.fasi', '1']);
+ _Hasync.push(['Histats.track_hits', '']);
+ (function() {
+ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+ hs.src = ('//s10.histats.com/js15_as.js');
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+ })();</script>
+ <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4643099&101" alt="javascript contador" border="0"></a></noscript>
+ <!-- Histats.com  END  -->
+
+
+
+<body>
+
+</html>
